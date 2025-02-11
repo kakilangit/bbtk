@@ -5,3 +5,8 @@ pub mod anyhow {
 pub mod thiserror {
     pub use thiserror::*;
 }
+
+#[cfg(feature = "serde")]
+pub mod serde {
+    pub use serde::*;
+}
