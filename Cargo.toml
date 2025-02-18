@@ -1,23 +1,28 @@
 [package]
 name = "bbtk"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A collection of frequently used libraries that should be in stdlib"
 documentation = "https://docs.rs/bbtk"
 repository = "https://github.com/kakilangit/bbtk"
 license = "MIT"
-keywords = ["bbtk", "lib", "anyhow", "thiserror", "serde"]
+keywords = ["bbtk", "lib", "anyhow", "thiserror", "rand", "regex", "serde"]
 authors = ["kakilangit <crates@kakilangit.dev>"]
 
 [dependencies]
 anyhow = "1.0"
+thiserror = "2.0"
+rand = { version = "0.9", features = ["serde"] }
+regex = "1.11"
+
+# optional
 serde = { version = "1.0", features = [
     "alloc",
     "derive",
     "rc",
     "serde_derive",
-] }
-thiserror = "2.0"
+], optional = true }
+
 
 [features]
-serde = []
+serde = ["dep:serde"]
