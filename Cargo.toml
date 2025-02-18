@@ -2,7 +2,7 @@
 name = "bbtk"
 version = "0.1.0"
 edition = "2021"
-description = "collection of libraries"
+description = "A collection of frequently used libraries that should be in stdlib"
 documentation = "https://docs.rs/bbtk"
 repository = "https://github.com/kakilangit/bbtk"
 license = "MIT"
