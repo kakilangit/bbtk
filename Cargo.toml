@@ -6,7 +6,7 @@ description = "A collection of frequently used libraries that should be in stdli
 documentation = "https://docs.rs/bbtk"
 repository = "https://github.com/kakilangit/bbtk"
 license = "MIT"
-keywords = ["bbtk", "lib", "anyhow", "thiserror", "rand", "regex", "serde"]
+keywords = ["bbtk", "lib", "libraries", "std"]
 authors = ["kakilangit <crates@kakilangit.dev>"]
 
 [dependencies]
