@@ -2,6 +2,12 @@
 name = "bbtk"
 version = "0.1.0"
 edition = "2021"
+description = "A collection of frequently used libraries that should be in stdlib"
+documentation = "https://docs.rs/bbtk"
+repository = "https://github.com/kakilangit/bbtk"
+license = "MIT"
+keywords = ["bbtk", "lib", "anyhow", "thiserror", "serde"]
+authors = ["kakilangit <crates@kakilangit.dev>"]
 
 [dependencies]
 anyhow = "1.0"
